@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProSports Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>🏅 ProSports Store</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <span class="cart">🛒 Cart: <span id="cart-count">0</span></span>
+        </nav>
+    </header>
+
+    <!-- Main Products Section -->
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Football">
+                <h3>Adidas Football</h3>
+                <p>$29.99</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Basketball">
+                <h3>Spalding Basketball</h3>
+                <p>$34.99</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Dumbbells">
+                <h3>Dumbbell Set</h3>
+                <p>$49.99</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We provide top-quality sports gear to athletes and enthusiasts around the world.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: contact@prosports.com</p>
+        <p>Phone: +1 234 567 8901</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 ProSports Store. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
